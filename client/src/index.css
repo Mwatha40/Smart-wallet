@@ -1,7 +1,171 @@
-:root {
-  --bg: #282c34;
-  --header: #fff;
-  --link: #61dafb;
-  --text: hsla(0, 0%, 100%, 0.88);
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* App Styles */
+
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Transaction Styles */
+
+.TransactionList {
+  margin-bottom: 20px;
+}
+
+.TransactionItem {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.TransactionItem:last-child {
+  border-bottom: none;
+}
+
+.TransactionItem h3 {
+  margin-top: 0;
+}
+
+.TransactionItem button {
+  margin-left: 10px;
+}
+
+/* Budget Styles */
+
+.BudgetList {
+  margin-bottom: 20px;
+}
+
+.BudgetItem {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.BudgetItem:last-child {
+  border-bottom: none;
+}
+
+.BudgetItem h3 {
+  margin-top: 0;
+}
+
+.BudgetItem button {
+  margin-left: 10px;
+}
+
+/* Category Styles */
+
+.CategoryList {
+  margin-bottom: 20px;
+}
+
+.CategoryItem {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.CategoryItem:last-child {
+  border-bottom: none;
+}
+
+.CategoryItem h3 {
+  margin-top: 0;
+}
+
+.CategoryItem button {
+  margin-left: 10px;
+}
+
+/* Form Styles */
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
